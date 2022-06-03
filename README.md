@@ -1,6 +1,6 @@
 # Using Netlify Edge Functions with RedwoodJS
 
-A starter example that shows how to use [RedwoodJS](https://redwoodjs.com/) with [Netlify Edge functions](https://docs.netlify.com/netlify-labs/experimental-features/edge-functions/).
+A starter example that shows how to use [RedwoodJS](https://redwoodjs.com/) with [Netlify Edge Functions](https://docs.netlify.com/netlify-labs/experimental-features/edge-functions/).
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ericapisani/sample-redwoodjs-with-edge-netlify)
 
@@ -14,22 +14,36 @@ Visit https://redwood-with-edge-demo.netlify.app/ to see the code in this reposi
 
 ## Prerequisites
 
-- Redwood requires [Node.js](https://nodejs.org/en/) (>=14.19.x <=16.x) and [Yarn](https://yarnpkg.com/) (>=1.15)
-- Netlify Edge Functions requires the [netlify-cli](https://www.npmjs.com/package/netlify-cli)
+- RedwoodJS requires [Node.js](https://nodejs.org/en/) (>=14.19.x <=16.x) and [Yarn](https://yarnpkg.com/) (>=1.15) installed.
+- Using Netlify Edge Functions locally requires the [Netlify CLI](https://www.npmjs.com/package/netlify-cli) installed.
 
 ## Local development
 
-Start by installing dependencies:
+To get stated with local development, follow the instructions below in your terminal application:
 
-```
-yarn install
-```
+1. Clone this repository locally:
+    ```bash
+    git clone https://github.com/ericapisani/sample-redwoodjs-with-edge-netlify
+    ```
 
-Then start the development server using `netlify` so that the edge function is run as well:
+2. Navigate to the repository folder:
+    ```bash
+    cd sample-redwoodjs-with-edge-netlify
+    ```
 
-```
-netlify dev
-```
+3. Install the package dependencies:
+    ```bash
+    yarn install
+    ```
+
+4. Start the application using the Netlify CLI (this will ensure that the Edge Function is executed as well):
+    ```bash
+    netlify dev
+    ```
+
+If the command is successful, you should see a new browser window open with the application running locally.
+
+![Running the application locally](media/netlify_dev.gif)
 
 ## Questions and troubleshooting
 
