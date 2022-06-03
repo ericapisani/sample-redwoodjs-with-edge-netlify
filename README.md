@@ -1,4 +1,6 @@
-# RedwoodJS Edge Demo
+# Using Netlify Edge Functions with RedwoodJS
+
+A starter example that shows how to use [RedwoodJS](https://redwoodjs.com/) with [Netlify Edge functions](https://docs.netlify.com/netlify-labs/experimental-features/edge-functions/).
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ericapisani/sample-redwoodjs-with-edge-netlify)
 
