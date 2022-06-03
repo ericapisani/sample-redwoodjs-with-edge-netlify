@@ -10,6 +10,8 @@ The example shows how geolocation through the Netlify Edge Functions can be used
 
 Visit https://redwood-with-edge-demo.netlify.app/ to see the code in this repository in action.
 
+![Example of a result from a RedwoodJS-powered application on Netlify Edge Functions](media/us_football.gif)
+
 ## Prerequisites
 
 - Redwood requires [Node.js](https://nodejs.org/en/) (>=14.19.x <=16.x) and [Yarn](https://yarnpkg.com/) (>=1.15)
