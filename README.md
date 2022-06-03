@@ -45,6 +45,26 @@ If the command is successful, you should see a new browser window open with the 
 
 ![Running the application locally](media/netlify_dev.gif)
 
+## Deploying the project to Netlify
+
+To deploy the project to Netlify, make sure that you have the [Netlify CLI](https://docs.netlify.com/cli/get-started/) installed. You can install the Netlify CLI globally by running this command in the terminal:
+
+```bash
+npm install netlify-cli -g
+```
+
+Once the CLI is installed, run the [deployment command](https://cli.netlify.com/commands/deploy) in the terminal:
+
+```bash
+netlify deploy --build
+```
+
+Once the command is executed, you'll be prompted for information about the site where the code needs to be deployed.
+
+![Example of deployment to a new Netlify site](media/deploy_to_netlify.gif)
+
+If the command is successful, you should see a URL to your site in the terminal.
+
 ## Questions and troubleshooting
 
 If you found an issue with the code in this repository, feel free to [open an issue](https://github.com/ericapisani/sample-redwoodjs-with-edge-netlify/issues) or let us know in the [Netlify Forums](https://answers.netlify.com/).
